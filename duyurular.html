@@ -4,11 +4,11 @@
 <head>
     <style>
         body {
-            background-color: cadetblue;
+            background: white url('resim.jpg') repeat right top;
         }
 
         .menüalani {
-            background-color: cadetblue;
+            background-color: white;
             width: 900;
             height: 40px;
             margin: auto auto auto auto;
@@ -28,6 +28,8 @@
             margin-top: 8px;
             margin-right: 20px;
         }
+
+        .icerik {}
     </style>
     <title>duyurular</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -35,24 +37,29 @@
 </head>
 
 <body>
-    <b>
-        <div class="menüalani">
-            <div class="menü">
-                <a href="/anasayfa.html">Anasayfa</a>
+    <div id="genel">
+        <b>
+            <div class="menüalani">
+                <div class="menü">
+                    <a href="anasayfa.html">Anasayfa</a>
+                </div>
+                <div class="menü">
+                    <a href="hakkimizda.html">Hakkımızda</a>
+                </div>
+                <div class="menü">
+                    <a href="iletişim.html">İletişim</a>
+                </div>
+                <div class="menü">
+                    <a href="duyurular.html">Duyurular</a>
+                </div>
             </div>
-            <div class="menü">
-                <a href="/hakkimizda.html">Hakkımızda</a>
-            </div>
-            <div class="menü">
-                <a href="/iletişim.html">İletişim</a>
-            </div>
-            <div class="menü">
-                <a href="/duyurular.html">Duyurular</a>
-            </div>
+        </b>
+        <div class="aramaalani">
+            <input type="text" type="aramatext"> <input type="submit" value="Ara">
         </div>
-    </b>
-    <div class="aramaalani">
-        <input type="text" type="aramatext"> <input type="submit" value="Ara">
+        <div class="icerik">
+            <p></p>
+        </div>
     </div>
 </body>
 

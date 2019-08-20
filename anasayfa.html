@@ -4,11 +4,12 @@
 <head>
     <style>
         body {
-            background-color: aqua;
+            background: white url('resim.jpg') repeat right top;
+
         }
 
         .menüalani {
-            background-color: aqua;
+            background-color: white;
             width: 900;
             height: 40px;
             margin: auto auto auto auto;
@@ -28,6 +29,26 @@
             margin-top: 8px;
             margin-right: 20px;
         }
+
+        .icerik {
+            width: ;
+            height: ;
+            float: left;
+        }
+
+        .icerik-sag {
+            width: 500px;
+            min-height: 450px;
+            float: left;
+        }
+
+        .icerik-sol {
+            width: 500px;
+            min-height: 450px;
+            float: left;
+        }
+
+        ..alt {}
     </style>
     <title>anasayfa</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -35,24 +56,36 @@
 </head>
 
 <body>
-    <b>
-        <div class="menüalani">
-            <div class="menü">
-                <a href="/anasayfa.html">Anasayfa</a>
+    <div id="genel">
+        <b>
+            <div class="menüalani">
+                <div class="menü">
+                    <a href="anasayfa.html">Anasayfa</a>
+                </div>
+                <div class="menü">
+                    <a href="hakkimizda.html">Hakkımızda</a>
+                </div>
+                <div class="menü">
+                    <a href="iletişim.html">İletişim</a>
+                </div>
+                <div class="menü">
+                    <a href="duyurular.html">Duyurular</a>
+                </div>
             </div>
-            <div class="menü">
-                <a href="/hakkimizda.html">Hakkımızda</a>
+        </b>
+        <div class="aramaalani">
+            <input type="text" class="aramatext"> <input type="submit" value="Ara">
+        </div>
+        <div class="içerik">
+            <div class="icerik-sag">
+                <p>Ruhun kadar özgür olmalısın</p>
             </div>
-            <div class="menü">
-                <a href="/iletişim.html">İletişim</a>
-            </div>
-            <div class="menü">
-                <a href="/duyurular.html">Duyurular</a>
+            <div class="icerik-sol">
+                <p>Ruhun kadar özgür olmalısın</p>
             </div>
         </div>
-    </b>
-    <div class="aramaalani">
-        <input type="text" class="aramatext"> <input type="submit" value="Ara">
+    </div>
+    <div class="alt">
     </div>
 </body>
 <html>
