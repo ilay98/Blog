@@ -1,60 +1,60 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <style>
         body {
-            background-color: aqua;
+            background-color: pink;
         }
 
-        h1 {
+        .menüalani {
+            background-color: pink;
+            width: 900;
+            height: 40px;
+            margin: auto auto auto auto;
+        }
+
+        .menü {
+            float: left;
+            margin-left: 30px;
+            margin-top: 10px;
             color: black;
-            text-align: center;
-        }
-
-        p {
-            font-family: Verdana;
-            font-size: 20px;
-        }
-
-        ul {
-            width: 25%;
-            background-color: aqua;
-            position: fixed;
-            height: 100%;
-            overflow: auto;
-            list-style-type: none;
-        }
-
-        li a {
-            display: block;
-            color: black;
-            padding: 8px 16px;
+            padding: 32px 64px;
             text-decoration: none;
         }
 
-        li a.active {
-            background-color: aqua;
-            color: black;
-        }
-
-        li a:hover:not(.active) {
-            background-color: #555;
-            color: black;
+        .aramaalani {
+            float: right;
+            margin-top: 8px;
+            margin-right: 20px;
         }
     </style>
+    <title>hakkimizda</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
 </head>
-<title>hakkimizda</title>
+
 
 <body>
-    <p>biz</p>
-    <ul>
-        <li><a class="active" href="/Anasayfa.html">Home Page</a></li>
-        <li>
-            <a href="#announcements">Announcements</a>
-        </li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="/Hakkimizda.html">About Us</a></li>
-    </ul>
+    <b>
+        <div class="menüalani">
+            <div class="menü">
+                <a href="/anasayfa.html">Anasayfa</a>
+            </div>
+            <div class="menü">
+                <a href="/hakkimizda.html">Hakkımızda</a>
+            </div>
+            <div class="menü">
+                <a href="/iletişim.html">İletişim</a>
+            </div>
+            <div class="menü">
+                <a href="/duyurular.html">Duyurular</a>
+            </div>
+        </div>
+    </b>
+    <div class="aramaalani">
+        <input type="text" class="aramatext"> <input type="submit" value="Ara">
+    </div>
 </body>
 
 </html>
